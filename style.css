@@ -1,0 +1,16 @@
+.square {
+    height: auto;
+    width: auto;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    margin: 220px 0 0 -260px;
+    position: absolute;
+    background-color: #333;
+    padding: 20px;
+}
+
+.button {
+    padding: 10px 40px;
+
+}
