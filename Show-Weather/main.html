@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, CSS, JSON, JavaScript">
+    <meta name="description" content="Random Quote Generator using Javascript and JSON">
+    <meta name="author" content="Adarsh S aka isht3">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+
+    <title>
+    Weather App
+    </title>
+  </head>
+
+  <body>
+    <img src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Backgrounds.jpg" alt="Background Image" class="image">
+    <div class="container" style="text-align: center">
+      <div class="col-xs-12">
+        <div class="square">
+          <h1 style="color: #7FFF00; font-size: 60px">Enter a city to view the weather.</h1>
+          <div class="row col-xs-12">
+            <h2 style="color: #ccc; display: inline;" id="city_c"></h2>
+            <h2 style="color: #ccc; display: inline;" id="city_d"></h2>
+            <h2 style="color: #ccc; display: inline;" id="city_temp"><h2>
+          </div>
+          <h2 style="color: #ccc" id="city_val"></h2>
+          <div class="row col-xs-12">
+            <h2 style="color: #ccc; display: inline;" id="city_humidity"></h2>
+            <h2 style="color: #ccc; display: inline;" id="city_wind"></h2>
+          </div>
+          <div class="row">
+            <label style="font-size: 20">
+              City
+              <input id="city" type="text" class="center-block" style="border-radius: 5px">
+            </label>
+            <div class="row col-xs-12">
+              <label style="font-size: 20px; color: #ccc">Celcius</label>
+              <input type="radio" name="temp" id="celcius" value="celcius" checked="checked">
+              <label style="font-size: 20px; color: #ccc">Farenheit</label>
+              <input type="radio" name="temp" id="farenheit" value="farenheit">
+            </div>
+            <button type="submit" class="center-block submit btn btn-primary">Show Weather</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
