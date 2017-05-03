@@ -1,0 +1,17 @@
+.image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.square {
+    height: auto;
+    width: auto;
+    z-index: 100;
+    display: inline-block;
+    position: relative;
+    margin-top: 15%;
+    background-color: #483D8B;
+    padding: 40px;
+    border-radius: 20px;
+}
