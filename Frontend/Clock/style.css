@@ -1,0 +1,81 @@
+body {
+    background-color: #fff;
+}
+
+.retro {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 82px/normal "Anton", Helvetica, sans-serif;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+  margin-top: 50px;
+}
+
+
+.layer-2 {
+  margin-top: 150px;
+  display: block;
+}
+
+.layer-clock {
+  margin-top: 150px;
+  display: none;
+}
+
+.countdown {
+  height: auto;
+  width: 600px;
+  padding: 10px 20px 10px 20px;
+  border: solid 10px #000;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: #444;
+}
+
+.layer-3 {
+  margin-top: 100px;
+}
+
+.awetton {
+  padding: 15px 70px 15px 70px;
+  background-color: #FF8C00;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.inputton {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  border: solid 10px #000;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.inputton-left {
+ margin-left: 300px;
+}
+
+.inputton-right {
+  margin-right: 300px;
+}
+
+.awetton-left {
+  margin-left: 450px;
+  display: none;
+}
+
+.awetton-center {
+  display: block;
+}
+
+.awetton-right {
+  margin-right: 450px;
+  display: none;
+}

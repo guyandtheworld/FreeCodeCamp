@@ -1,0 +1,92 @@
+body {
+    background-color: #bbf;
+}
+
+.retro {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 82px/normal "Anton", Helvetica, sans-serif;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+  margin-top: 50px;
+}
+
+.mandan {
+    display: block;
+}
+
+.result {
+    height: 100px;
+    width: auto;
+    padding: 0px 20px 20px 10px;
+    margin: 10px 10px 10px 65px;
+    position: relative;
+    background-color: #333;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+    border: solid 10px #191;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.display {
+    height: 200px;
+    width: 1200px;
+    padding: 50px 50px 50px 50px;
+    margin: 100px 50px 50px 50px;
+    position: relative;
+    background-color: #333;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+    border: solid 10px #191;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.info {
+    text-align: center;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
